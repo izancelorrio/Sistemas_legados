@@ -269,7 +269,11 @@
                                INTO T-FECHA-TXT(INDICE)
                         END-STRING
                         MOVE "PERIODICA" TO T-TIPO-TXT(INDICE)
-                        MOVE "PENDIENTE" TO T-ESTADO-TXT(INDICE)
+                        IF TRF-DIA-MES <= DIA THEN
+                            MOVE "EJECUTADA" TO T-ESTADO-TXT(INDICE)
+                        ELSE
+                            MOVE "PENDIENTE" TO T-ESTADO-TXT(INDICE)
+                        END-IF
                     END-IF
 
                     MOVE TRF-CTA-DESTINO TO T-DESTINO(INDICE)
