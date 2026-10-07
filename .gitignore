@@ -1,0 +1,44 @@
+# ==============================================================================
+# Reglas globales de Git - Repositorio Sistemas Legados
+# ==============================================================================
+
+# Binarios y clases compiladas de Java
+*.class
+**/bin/
+**/out/
+**/build/
+**/target/
+
+# Configuraciones de IDEs (IntelliJ IDEA, Eclipse, NetBeans, VS Code)
+**/.idea/
+**/*.iml
+**/.vscode/
+**/.settings/
+**/.project
+**/.classpath
+**/.apt_generated
+**/.factorypath
+**/.springBeans
+**/.sts4-cache
+**/.nb-gradle/
+**/nbproject/private/
+**/nbbuild/
+**/dist/
+**/nbdist/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Logs y volcados temporales
+*.log
+*.tmp
+
+# Práctica 2 - Ejecutables y empaquetados excluidos de control de versiones
+GestorTareas.jar
+GestorTareas.exe
+ws3270.exe
+*.jar
+
