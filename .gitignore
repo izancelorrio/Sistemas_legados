@@ -39,6 +39,7 @@ desktop.ini
 # Práctica 2 - Ejecutables y empaquetados excluidos de control de versiones
 GestorTareas.jar
 GestorTareas.exe
+GestorTareas.xml
 ws3270.exe
 *.jar
 
